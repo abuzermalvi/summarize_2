@@ -12,7 +12,7 @@ from functools import reduce
 
 # Set the API key for Google Serper
 os.environ["SERPER_API_KEY"] = "51d999e5b64d028cc0e05e4f27bc0fd40f70cfae"
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = "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"
 # Define the keywords for each brand
 # Default keywords for each brand
 DEFAULT_PG_KEYWORDS = {
