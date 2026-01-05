@@ -11,7 +11,7 @@ from pytrends.request import TrendReq
 from functools import reduce
 
 # Set the API key for Google Serper
-os.environ["SERPER_API_KEY"] = "61ede5b9f93f35c3469b0247305363b075447be8"
+os.environ["SERPER_API_KEY"] = "fd2526bf73c2eacf80c9ed0655f79ccdac38b4bd"
 os.environ["GROQ_API_KEY"] = "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"
 # Define the keywords for each brand
 # Default keywords for each brand
