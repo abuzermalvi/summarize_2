@@ -12,7 +12,7 @@ from functools import reduce
 
 # Set the API key for Google Serper
 os.environ["SERPER_API_KEY"] = "420eaa860a622b4de1d8ce4a6de8c37c58217bac"
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = "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"
 # Define the keywords for each brand
 # Default keywords for each brand
 DEFAULT_PG_KEYWORDS = {
@@ -45,7 +45,7 @@ def get_google_news_data(keywords):
 
 # Function to get the Gemini client for summarization
 def get_gemini_client():
-    return genai.Client(api_key=os.getenv("GEMINI_API_KEY", "AIzaSyCSGhhRfLlwVRQ6Bq4-6ngkYHtL4lx0r84"))
+    return genai.Client(api_key=os.getenv("GEMINI_API_KEY", "AIzaSyAN0QqFt8gJOnbdjhgpasArSmS-nERQYgI"))
 
 # Function to extract a news summary using the Gemini API
 def extract_news_summary(topic, time_posted):
