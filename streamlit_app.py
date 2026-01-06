@@ -12,7 +12,7 @@ from functools import reduce
 
 # Set the API key for Google Serper
 os.environ["SERPER_API_KEY"] = "51d999e5b64d028cc0e05e4f27bc0fd40f70cfae"
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = "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"
 # Define the keywords for each brand
 # Default keywords for each brand
 DEFAULT_PG_KEYWORDS = {
@@ -77,7 +77,7 @@ User Article Topic: {topic}
 Response:
 """
     response = client.models.generate_content(
-        model='gemini-2.0-flash',
+        model='gemini-2.5-flash-lite',
         contents=prompt,
         config={"tools": [{"google_search": {}}]},
     )
